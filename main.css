@@ -62,8 +62,8 @@
 
 
 #tribute-info{
-   max-height: 150vh;
-   background-color: lightgray;
+   min-height: 220vh;
+   background-color: #EEEEEE;
 
 }
 
@@ -106,4 +106,30 @@ ul li{
    text-align: start;
    align-items: center;
    margin: 10px 0;
+}
+
+#citation{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 15px;
+   margin-bottom: 40px;
+   color: rgb(61, 55, 55);
+}
+
+#citation p{
+   font-size: 1.2rem;
+   width: 40%;
+   align-items: flex-start;
+   line-height: 1.4;
+   margin-bottom: 15px;
+   font-style: italic;
+   font-size: 1.1rem;
+}
+
+cite{
+   width: 40%;
+   font-size: 0.8rem;
+   font-style: italic;
 }
